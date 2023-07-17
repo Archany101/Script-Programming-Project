@@ -1,0 +1,5 @@
+wage = float(input('Enter hourly wage: '))
+regular = float(input('Enter regular hours: '))
+extra = float(input('Enter extra hours: '))
+total = (wage*regular)+(extra*(wage*regular))
+print ("Total pay: ", total)
