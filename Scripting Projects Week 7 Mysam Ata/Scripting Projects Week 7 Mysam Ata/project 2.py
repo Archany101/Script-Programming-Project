@@ -12,7 +12,7 @@ while(True):
     try:
         lineNumber = int(input("Enter a line number [0 to quit]: "))
     except ValueError:
-        print('ERROR: you must enter a number.')
+        print('ERROR: you must enter a number to continue.')
         continue
     if (lineNumber > len(lines)):
         print(f'ERROR: line number must be less than {len(lines)}.')
